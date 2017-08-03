@@ -1,0 +1,102 @@
+/* style.css */
+
+html, 
+body {
+	height: 100%;
+	background-color: green;
+}
+
+cover .cover-section, h1 {
+
+font-family: 'Concert One', cursive;
+color: whitesmoke;
+
+font-size: 52px;
+
+}
+
+cover .cover-section, p {
+
+font-family: 'Marcellus SC', serif;
+font-size: 26px;
+
+}
+
+footer {
+	
+	font-family: 'Marcellus SC', serif;
+	font-size: 26px;
+}
+
+.navbar {
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+}
+
+.btn {
+	font-family: 'Concert One', cursive;
+	font-size: 22px;
+
+}
+
+/* cover */
+
+#cover {
+	background: #222 url('img/cover2.jpg') center no-repeat;
+	background-size: cover;
+	color: white; 
+	height: 90%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+}
+
+#cover-caption {
+	max-width: 100%;
+}
+
+div.mc-field-group {
+	margin-right: 3px;
+	align-item: center;
+}
+
+footer {
+  padding: 10px 0px;
+  background-color: black;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+
+footer p {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 16px;
+    #FFFDD0;
+}
+
+
+    .card-group > .card > .card-img-top
+
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        flex: initial; 
+    }
+}
+
+.btn {
+	align-item: center;
+}
+
+/* .form-inline > * {
+	font-family: 'Gurajada', serif;
+	font-family: 'Bellefair', serif;
+	font-family: 'Port Lligat Slab', serif;
+    margin:15px 3px !important;
+} */
