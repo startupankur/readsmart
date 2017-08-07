@@ -47,6 +47,9 @@ font-family: 'Marcellus SC', serif;
 .card-columns {
 
 	padding-top:30px;
+	display: table;
+
+	
 }
 
 .card-group p {
@@ -55,9 +58,7 @@ font-family: 'Marcellus SC', serif;
 
 }
 
-.card-footer {
 
-}
 
 footer {
 	
@@ -94,9 +95,9 @@ footer {
 }
 
 div.mc-field-group {
-	margin-right: 3px;
+	margin-right: 2px;
 	align-item: center;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 footer {
@@ -129,8 +130,10 @@ footer p {
         
     }
 
-    .card-columns > .card > .card-block
+    .card-columns .card {
 
+			display: inline-block;
+			padding :0px;
     {
         
 
@@ -206,8 +209,26 @@ footer p {
     .card-columns {
         -webkit-column-count: 4;
         -moz-column-count: 4;
-        column-count: 4;
+        column-count: 1;
     }
+
+    .jumbotron p{
+
+    	font-family: 'Bellefair', serif;
+    }
+
+    .jumbotron h2 {
+
+    	font-family: 'Concert One', cursive;
+    	color: green;
+    	font-size: 42px;
+    }
+
+    .jumbotron-fluid {
+
+	background-color: whitesmoke;
+	
+	text-align: center;
 }
 
 /* .form-inline > * {
