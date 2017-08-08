@@ -6,8 +6,8 @@ body {
 	background-color: whitesmoke;
 }
 
-.card-group {
-
+.card {
+	margin: 0px;
 }
 
 cover .cover-section, h1 {
