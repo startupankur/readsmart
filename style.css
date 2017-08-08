@@ -6,9 +6,6 @@ body {
 	background-color: whitesmoke;
 }
 
-.card {
-	margin: 0px;
-}
 
 cover .cover-section, h1 {
 
@@ -134,6 +131,8 @@ footer p {
 
 			display: inline-block;
 			padding :0px;
+	    		margin: 0px;
+	    		align items: center;
     {
         
 
