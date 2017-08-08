@@ -85,7 +85,7 @@ footer {
 	color: white; 
 	height: 90%;
 	text-align: center;
-	display: flex;
+	display: table;
 	align-items: center;
 	
 }
